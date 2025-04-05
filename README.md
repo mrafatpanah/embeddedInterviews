@@ -1,1 +1,2 @@
-Trying to share my personal experience in Embedded interviews with simple examples, absoulutely helped by AI.
+# Personal Embedded Interview Experiences
+Trying to share my personal experiences in embedded interviews with simple examples, helped by AI.
