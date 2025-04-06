@@ -1,5 +1,5 @@
 # Embedded Interview Series
-## Understanding static in C – global 'static' elements
+## Understanding static in C – global `static` elements
 
 As I continue exploring embedded systems concepts, today I'll focus on another powerful aspect of the static keyword in C: global static variables and functions.
 
