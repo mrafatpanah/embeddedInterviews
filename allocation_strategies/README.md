@@ -33,7 +33,7 @@ void function() {
 ```
 
 ### Memory Regions Comparison:
-![Comparison](Memory Regions Comparison.jpg)
+![Comparison](Memory%20Regions%20Comparison.jpg)
 
 ### Critical Embedded Considerations:
 
