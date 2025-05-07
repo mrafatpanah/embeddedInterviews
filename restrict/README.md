@@ -23,6 +23,7 @@ void vector_add(int* restrict result, const int* restrict a,
 }
 ```
 ### Why This Matters:
+
 1. **The Aliasing Problem**
 Without 'restrict', the compiler must assume pointers might reference overlapping memory:
 ```c
@@ -32,6 +33,7 @@ void update(int* a, int* b) {
 }
 ```
 This forces unnecessary memory operations and prevents optimizations.
+
 2. **Performance Impact**
 With 'restrict', the compiler can:
 
