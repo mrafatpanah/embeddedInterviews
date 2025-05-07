@@ -55,7 +55,7 @@ void process_audio(float* restrict output,
 }
 ```
 
-Usage Guidelines:
+### Usage Guidelines:
 
 - Only use when certain: Memory regions must truly be disjoint
 - Best candidates: Functions with multiple pointer parameters
@@ -63,7 +63,7 @@ Usage Guidelines:
 - Documentation: Mark 'restrict' usage clearly for maintainers
 - Ideal scenarios: Signal processing, matrix operations, graphics rendering
 
-Common Pitfall:
+### Common Pitfall:
 ```c
 // INCORRECT: Violates restrict contract!
 void bad_usage(int* restrict p) {
